@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="calculate" layoutX="165.0" layoutY="318.0" mnemonicParsing="false" text="Calculate">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextArea fx:id="textArea" layoutX="100.0" layoutY="40.0" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
+      <TextField fx:id="iteration" layoutX="105.0" layoutY="280.0" prefHeight="25.0" prefWidth="70.0">
+         <font>
+            <Font size="11.0" />
+         </font></TextField>
+      <TextField fx:id="precision" layoutX="228.0" layoutY="280.0" prefHeight="25.0" prefWidth="70.0">
+         <font>
+            <Font size="11.0" />
+         </font></TextField>
+      <Label layoutX="113.0" layoutY="262.0" text="Iterations" textFill="#edf50a">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="237.0" layoutY="262.0" text="Precision" textFill="#edf50a">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="clear" layoutX="164.0" layoutY="350.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="70.0" text="Clear">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="140.0" layoutY="10.0" text="PI Calculator" textFill="#edf50a">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
